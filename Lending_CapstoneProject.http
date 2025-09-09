@@ -1,0 +1,6 @@
+@Lending_CapstoneProject_HostAddress = http://localhost:5228
+
+GET {{Lending_CapstoneProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
