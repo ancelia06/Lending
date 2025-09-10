@@ -2,5 +2,7 @@
 {
     public class SystemAdministrator:User
     {
+    public string Name { get; set; }
     }
 }
+
