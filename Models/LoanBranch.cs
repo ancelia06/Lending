@@ -2,9 +2,14 @@
 {
     public class LoanBranch
     {
-        public int BranchId { get; set; }
+        [Key]
+    public int BranchId { get; set; }
+
+    [Required]
     public string Location { get; set; }
+
     public ICollection<LoanOfficer> Officers { get; set; }
     }
 }
+
 
